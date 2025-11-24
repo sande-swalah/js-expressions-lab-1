@@ -1,0 +1,151 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 8,
+    "passes": 6,
+    "pending": 0,
+    "failures": 2,
+    "start": "2025-11-24T18:48:39.197Z",
+    "end": "2025-11-24T18:48:39.502Z",
+    "duration": 305
+  },
+  "tests": [
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is a floating number",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1243.1999999999998 to be close to 2171.2 +/- 0.2",
+        "showDiff": false,
+        "actual": 1243.1999999999998,
+        "stack": "AssertionError: expected 1243.1999999999998 to be close to 2171.2 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:34:57)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_celsius is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 41.43999999999999 to be close to 72.37333333333332 +/- 0.2",
+        "showDiff": false,
+        "actual": 41.43999999999999,
+        "stack": "AssertionError: expected 41.43999999999999 to be close to 72.37333333333332 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:60:57)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_celsius is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 1243.1999999999998 to be close to 2171.2 +/- 0.2",
+        "showDiff": false,
+        "actual": 1243.1999999999998,
+        "stack": "AssertionError: expected 1243.1999999999998 to be close to 2171.2 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:34:57)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 41.43999999999999 to be close to 72.37333333333332 +/- 0.2",
+        "showDiff": false,
+        "actual": 41.43999999999999,
+        "stack": "AssertionError: expected 41.43999999999999 to be close to 72.37333333333332 +/- 0.2\n    at Context.<anonymous> (test/indexTest.js:60:57)\n    at process.processImmediate (node:internal/timers:505:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_fahrenheit is a floating number",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js tot_temperature_in_celsius is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js tot_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_fahrenheit is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is a floating number",
+      "fullTitle": "index.js avg_temperature_in_celsius is a floating number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is accurate with a tolerance of 0.2 degrees",
+      "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
